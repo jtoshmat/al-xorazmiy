@@ -1,0 +1,124 @@
+*{
+    width: 100%;
+    height: 100%;
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+body{
+    background-color: #102c40;
+}
+#mysite{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border: 1px solid white;
+    background-color: whitesmoke;
+}
+.myheader{
+    width: 100%;
+    height: 130px;
+    background-color: #630000;
+    border-bottom: 8px solid #8188bb;
+}
+.logo{
+    width: 101px;
+    margin: 10px 0px 10px 10px;
+}
+.search_input{
+    width: 219px;
+    height: 32px;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 40px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(/img/searchicon.png);
+    background-repeat: no-repeat;
+    background-size: 16% 100%;
+    padding-left: 34px;
+    font-size: 75%;
+    color: darkgrey;
+}
+.mymenu{
+    width: 100%;
+    height: 50px;
+    background-color: #45aaf9;
+    border-bottom: 8px solid #905151;
+}
+.mynav a{
+    margin: 15px 15px;
+    color: #7b0d82;
+    font-size: 120%;
+    text-decoration: none;
+}
+.mynav a:hover{
+    color: #ffdc6a;
+    cursor: pointer;
+}
+.mycontent{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.mycontent_left_col{
+    width: 25%;
+    height: 400px;
+    float: left;
+    display: inline-block;
+    background-color: bisque;
+    height: 100%;
+}
+.myleftmenu{
+    margin: auto;
+}
+.myleftmenu li{
+    background-color: #630000;
+    margin: 5px;
+    border: 1px solid #7e2121;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    left: -30px;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+.myleftmenu li a{
+    color: white;
+    padding: 3px;
+    font-size: 75%;
+    text-decoration: none;
+}
+.myleftmenu li:hover{
+    background-color: #0f6674;
+}
+.myleftmenu_child{
+    z-index: 100;
+    width: 260px;
+    display: none;
+}
+
+
+.mycontent_right_col{
+    width: 75%;
+    background-color: #f3f3f3;
+    height: auto;
+    float: right;
+    display: inline-block;
+    padding: 5px;
+}
+
+.mycontent_right_col p:first-letter{
+ display: block;
+    background-color: #377ebe;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
